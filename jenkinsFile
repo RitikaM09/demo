@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Demo') {
         steps {
-        welcome('Ritika Mishra')
+        call('Ritika Mishra')
             }
         }
         stage('Build') {
