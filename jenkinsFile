@@ -3,8 +3,8 @@ pipeline {
     agent any
 
     stages {
-        stage('Demo')
-        steps{
+        stage('Demo') {
+        steps {
         welcome("Ritika Mishra")
             }
         }
