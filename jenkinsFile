@@ -1,8 +1,13 @@
-@Library('Mylibrary')_
+@Library('Mylibrary') _
 pipeline {
     agent any
 
     stages {
+        stage('Demo')
+        steps{
+        welcome("Ritika Mishra")
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Building..'
