@@ -5,7 +5,9 @@ pipeline {
     stages {
         stage('Demo') {
         steps {
+        script{
         welcome.call('Ritika Mishra')
+            }
             }
         }
         stage('Build') {
